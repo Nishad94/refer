@@ -4,6 +4,7 @@ import scipy.io as io
 import os.path as osp
 import os
 import json
+import numpy as np
 
 def generateMasksAndQueries(MASK_DIR, QUERY_FILE_NAME, refer_obj):
 	img_sg_counts = {}

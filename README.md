@@ -5,6 +5,7 @@
 - In cocoCLEFConversion.py change MASK_DIR and QUERY_FILE_NAME to appropriate values
 - Follow the instructions below mentioned in DOWNLOAD/PREPARE IMAGES secions
 - Run cocoCLEFConversion.py [Only compatible with Python 2]
+- Check the POC notebook for an example
 
 
 ## Note
