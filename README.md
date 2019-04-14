@@ -1,10 +1,10 @@
 ## Extension of the refer API to convert COCO dataset into the CLEF format used for https://github.com/ronghanghu/text_objseg
 
 ## Steps to convert files from COCO -> CLEF:
-- 1) Run "make" before using the code.
-- 2) In cocoCLEFConversion.py change MASK_DIR and QUERY_FILE_NAME to appropriate values
-- 3) Follow the instructions below mentioned in DOWNLOAD/PREPARE IMAGES secions
-
+- Run "make" before using the code.
+- In cocoCLEFConversion.py change MASK_DIR and QUERY_FILE_NAME to appropriate values
+- Follow the instructions below mentioned in DOWNLOAD/PREPARE IMAGES secions
+- Run cocoCLEFConversion.py [Only compatible with Python 2]
 
 
 ## Note
