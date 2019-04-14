@@ -30,7 +30,7 @@ import json
 import cPickle as pickle
 import time
 import itertools
-import skimage.io as io
+import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
 from matplotlib.collections import PatchCollection
 from matplotlib.patches import Polygon, Rectangle
@@ -234,7 +234,7 @@ class REFER:
 		ax = plt.gca()
 		# show image
 		image = self.Imgs[ref['image_id']]
-		I = io.imread(osp.join(self.IMAGE_DIR, image['file_name']))
+		I = mpimg.imread(osp.join(self.IMAGE_DIR, image['file_name']))
 		ax.imshow(I)
 		# show refer expression
 		for sid, sent in enumerate(ref['sentences']):

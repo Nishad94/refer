@@ -1,3 +1,12 @@
+## Extension of the refer API to convert COCO dataset into the CLEF format used for https://github.com/ronghanghu/text_objseg
+
+## Steps to convert files from COCO -> CLEF:
+- 1) Run "make" before using the code.
+- 2) In cocoCLEFConversion.py change MASK_DIR and QUERY_FILE_NAME to appropriate values
+- 3) Follow the instructions below mentioned in DOWNLOAD/PREPARE IMAGES secions
+
+
+
 ## Note
 This API is able to load all 4 referring expression datasets, i.e., RefClef, RefCOCO, RefCOCO+ and RefCOCOg. 
 They are with different train/val/test split by UNC, Google and UC Berkeley respectively. We provide all kinds of splits here.
